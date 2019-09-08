@@ -9,8 +9,11 @@ public class Main {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.booking.com");
 
-        System.out.println(driver.getTitle());
-        WebElement element = driver.findElement(By.className("sb-destination__input"));
+    :wq
+    git System.out.println(driver.getTitle());
+        WebElement element = driver.findElement(:wq
+    :By.className("sb-destination__input"));
         System.out.println(element.getAttribute("placeholder"));
+//Mój komentarz
     }
 }
